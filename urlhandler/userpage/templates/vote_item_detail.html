@@ -18,6 +18,9 @@
         window.onerror = function() {
             return true;
         }
+        $(document).ready(function(){
+            $('.body').html($('.body').html().replace(/&lt;/g, '<').replace(/&gt;/g, '>'))
+        });
     </script>
 </head>
 
@@ -41,7 +44,7 @@
                 <div class="corner"></div>
                 <div class="details">
                     <div class="body">
-                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ item.description }}</p>
+                        <p>{{ item.description }}</p>
                     </div>
                 </div>
             </section>

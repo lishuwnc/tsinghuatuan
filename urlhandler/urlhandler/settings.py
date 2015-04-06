@@ -91,7 +91,7 @@ else:
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'wxvote',
             'USER': 'root',
-            'PASSWORD': 'THUsoft!@#',
+            'PASSWORD': 'lishu-wakaka',
             'HOST': '127.0.0.1',
             'PORT': '3306',
             }
