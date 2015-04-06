@@ -62,7 +62,7 @@ if 'SERVER_SOFTWARE' in os.environ:
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'wxvote',
             'USER': 'root',
-            'PASSWORD': '123456789',
+            'PASSWORD': 'lishu-wakaka',
             'HOST': '127.0.0.1',
             'PORT': '3306',
             }
